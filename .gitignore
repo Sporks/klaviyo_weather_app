@@ -1,0 +1,6 @@
+node_modules
+www/bundle.js
+.tmp
+.idea
+.publish
+.DS_Store
