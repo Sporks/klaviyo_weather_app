@@ -1,0 +1,402 @@
+[
+ {
+   "id": 1,
+   "city": "Albuquerque, NM"
+ },
+ {
+   "id": 2,
+   "city": "Anaheim, CA"
+ },
+ {
+   "id": 3,
+   "city": "Anchorage, AK"
+ },
+ {
+   "id": 4,
+   "city": "Arlington, TX"
+ },
+ {
+   "id": 5,
+   "city": "Atlanta, GA"
+ },
+ {
+   "id": 6,
+   "city": "Aurora, CO"
+ },
+ {
+   "id": 7,
+   "city": "Austin, TX"
+ },
+ {
+   "id": 8,
+   "city": "Bakersfield, CA"
+ },
+ {
+   "id": 9,
+   "city": "Baltimore, MD"
+ },
+ {
+   "id": 10,
+   "city": "Baton Rouge, LA"
+ },
+ {
+   "id": 11,
+   "city": "Boise City, ID"
+ },
+ {
+   "id": 12,
+   "city": "Boston, MA"
+ },
+ {
+   "id": 13,
+   "city": "Buffalo, NY"
+ },
+ {
+   "id": 14,
+   "city": "Chandler, AZ"
+ },
+ {
+   "id": 15,
+   "city": "Charlotte, NC"
+ },
+ {
+   "id": 16,
+   "city": "Chesapeake, VA"
+ },
+ {
+   "id": 17,
+   "city": "Chicago, IL"
+ },
+ {
+   "id": 18,
+   "city": "Chula Vista, CA"
+ },
+ {
+   "id": 19,
+   "city": "Cincinnati, OH"
+ },
+ {
+   "id": 20,
+   "city": "Cleveland, OH"
+ },
+ {
+   "id": 21,
+   "city": "Colorado Springs, CO"
+ },
+ {
+   "id": 22,
+   "city": "Columbus, OH"
+ },
+ {
+   "id": 23,
+   "city": "Corpus Christi, TX"
+ },
+ {
+   "id": 24,
+   "city": "Dallas, TX"
+ },
+ {
+   "id": 25,
+   "city": "Denver, CO"
+ },
+ {
+   "id": 26,
+   "city": "Detroit, MI"
+ },
+ {
+   "id": 27,
+   "city": "Durham, NC"
+ },
+ {
+   "id": 28,
+   "city": "El Paso, TX"
+ },
+ {
+   "id": 29,
+   "city": "Fort Wayne, IN"
+ },
+ {
+   "id": 30,
+   "city": "Fort Worth, TX"
+ },
+ {
+   "id": 31,
+   "city": "Fremont, CA"
+ },
+ {
+   "id": 32,
+   "city": "Fresno, CA"
+ },
+ {
+   "id": 33,
+   "city": "Garland, TX"
+ },
+ {
+   "id": 34,
+   "city": "Gilbert, AZ"
+ },
+ {
+   "id": 35,
+   "city": "Glendale, AZ"
+ },
+ {
+   "id": 36,
+   "city": "Greensboro, NC"
+ },
+ {
+   "id": 37,
+   "city": "Henderson, NV"
+ },
+ {
+   "id": 38,
+   "city": "Hialeah, FL"
+ },
+ {
+   "id": 39,
+   "city": "Honolulu, HI"
+ },
+ {
+   "id": 40,
+   "city": "Houston, TX"
+ },
+ {
+   "id": 41,
+   "city": "Indianapolis, IN"
+ },
+ {
+   "id": 42,
+   "city": "Irvine, CA"
+ },
+ {
+   "id": 43,
+   "city": "Irving, TX"
+ },
+ {
+   "id": 44,
+   "city": "Jacksonville, FL"
+ },
+ {
+   "id": 45,
+   "city": "Jersey City, NJ"
+ },
+ {
+   "id": 46,
+   "city": "Kansas City, MO"
+ },
+ {
+   "id": 47,
+   "city": "Laredo, TX"
+ },
+ {
+   "id": 48,
+   "city": "Las Vegas, NV"
+ },
+ {
+   "id": 49,
+   "city": "Lexington-Fayette, KY"
+ },
+ {
+   "id": 50,
+   "city": "Lincoln, NE"
+ },
+ {
+   "id": 51,
+   "city": "Long Beach, CA"
+ },
+ {
+   "id": 52,
+   "city": "Los Angeles, CA"
+ },
+ {
+   "id": 53,
+   "city": "Louisville/Jefferson County, KY"
+ },
+ {
+   "id": 54,
+   "city": "Lubbock, TX"
+ },
+ {
+   "id": 55,
+   "city": "Madison, WI"
+ },
+ {
+   "id": 56,
+   "city": "Memphis, TN"
+ },
+ {
+   "id": 57,
+   "city": "Mesa, AZ"
+ },
+ {
+   "id": 58,
+   "city": "Miami, FL"
+ },
+ {
+   "id": 59,
+   "city": "Milwaukee, WI"
+ },
+ {
+   "id": 60,
+   "city": "Minneapolis, MN"
+ },
+ {
+   "id": 61,
+   "city": "Nashville-Davidson, TN"
+ },
+ {
+   "id": 62,
+   "city": "New Orleans, LA"
+ },
+ {
+   "id": 63,
+   "city": "New York, NY"
+ },
+ {
+   "id": 64,
+   "city": "Newark, NJ"
+ },
+ {
+   "id": 65,
+   "city": "Norfolk, VA"
+ },
+ {
+   "id": 66,
+   "city": "North Las Vegas, NV"
+ },
+ {
+   "id": 67,
+   "city": "Oakland, CA"
+ },
+ {
+   "id": 68,
+   "city": "Oklahoma City, OK"
+ },
+ {
+   "id": 69,
+   "city": "Omaha, NE"
+ },
+ {
+   "id": 70,
+   "city": "Orlando, FL"
+ },
+ {
+   "id": 71,
+   "city": "Philadelphia, PA"
+ },
+ {
+   "id": 72,
+   "city": "Phoenix, AZ"
+ },
+ {
+   "id": 73,
+   "city": "Pittsburgh, PA"
+ },
+ {
+   "id": 74,
+   "city": "Plano, TX"
+ },
+ {
+   "id": 75,
+   "city": "Portland, OR"
+ },
+ {
+   "id": 76,
+   "city": "Raleigh, NC"
+ },
+ {
+   "id": 77,
+   "city": "Reno, NV"
+ },
+ {
+   "id": 78,
+   "city": "Richmond, VA"
+ },
+ {
+   "id": 79,
+   "city": "Riverside, CA"
+ },
+ {
+   "id": 80,
+   "city": "Sacramento, CA"
+ },
+ {
+   "id": 81,
+   "city": "San Antonio, TX"
+ },
+ {
+   "id": 82,
+   "city": "San Bernardino, CA"
+ },
+ {
+   "id": 83,
+   "city": "San Diego, CA"
+ },
+ {
+   "id": 84,
+   "city": "San Francisco, CA"
+ },
+ {
+   "id": 85,
+   "city": "San Jose, CA"
+ },
+ {
+   "id": 86,
+   "city": "Santa Ana, CA"
+ },
+ {
+   "id": 87,
+   "city": "Scottsdale, AZ"
+ },
+ {
+   "id": 88,
+   "city": "Seattle, WA"
+ },
+ {
+   "id": 89,
+   "city": "St. Louis, MO"
+ },
+ {
+   "id": 90,
+   "city": "St. Paul, MN"
+ },
+ {
+   "id": 91,
+   "city": "St. Petersburg, FL"
+ },
+ {
+   "id": 92,
+   "city": "Stockton, CA"
+ },
+ {
+   "id": 93,
+   "city": "Tampa, FL"
+ },
+ {
+   "id": 94,
+   "city": "Toledo, OH"
+ },
+ {
+   "id": 95,
+   "city": "Tucson, AZ"
+ },
+ {
+   "id": 96,
+   "city": "Tulsa, OK"
+ },
+ {
+   "id": 97,
+   "city": "Virginia Beach, VA"
+ },
+ {
+   "id": 98,
+   "city": "Washington, DC"
+ },
+ {
+   "id": 99,
+   "city": "Wichita, KS"
+ },
+ {
+   "id": 100,
+   "city": "Winston-Salem, NC"
+ }
+]

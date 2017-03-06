@@ -1,0 +1,18 @@
+#mount{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+.panel{
+  width: 55vw;
+}
+
+/*Grow box taller*/
+
+.buttonContainer{
+  text-align: center;
+}
+select.placeholder {
+  color: #999;
+}
