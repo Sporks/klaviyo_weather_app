@@ -68,6 +68,9 @@ class Signup extends React.Component {
           url: '/submit',
           method: 'POST',
           data: {email: this.state.email, city: this.state.city}
+      }).done(function(result){
+        // Load the thank you page
+        $("#mount").load('index2/')
       })
     }
     event.preventDefault();

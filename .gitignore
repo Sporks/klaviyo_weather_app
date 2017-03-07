@@ -1,5 +1,6 @@
 node_modules
 www/bundle.js
+server/key.js
 .tmp
 .idea
 .publish

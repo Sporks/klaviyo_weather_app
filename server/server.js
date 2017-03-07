@@ -1,15 +1,20 @@
 'use strict'
 
+const path = require('path');
 const express = require('express');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpack = require('webpack');
 const webpackConfig = require('../webpack.config.js');
 const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-const signup = require('./middleware/signup');
 const fs = require('fs');
-const app = express();
+const bodyParser = require('body-parser');
 
+// My controllers and middleware
+const signup = require('./middleware/signup');
+const fileReader = require('./controllers/fileReader');
+const emailer = require('./middleware/emailer');
+
+const app = express();
 const compiler = webpack(webpackConfig);
 
 //Parse the body of what we get back in the post
@@ -25,14 +30,8 @@ app.use(webpackDevMiddleware(compiler, {
 }));
 app.use(express.static(__dirname + './../www'));
 
-var cities = '';
-
 // Read in the file of the most populous cities
-try {
-    cities = fs.readFileSync('./server/cities.json', 'utf8');
-} catch(e) {
-    console.log('Error:', e.stack);
-}
+let cities = fileReader.read('./server/cities.json');
 
 //Use native ES6 Promises with mongoose
 mongoose.Promise = Promise;
@@ -44,13 +43,21 @@ db.once( 'open', function () {
 	console.log( "your db is open" );
 } );
 
+app.get('/send', signup.retrieve, emailer.sendEmail, function(req, res){
+  res.send("Success");
+});
+
+app.get('/index2', function(req, res){
+  let file = path.join(__dirname, '../www/index2.html');
+  res.sendFile(file);
+});
 
 app.get('/cities', function(req, res) {
   res.send(cities);
 });
 
-app.post('/submit', signup.add, function(req, res) {
-  console.log(req.body);
+app.post('/submit', signup.validate, signup.add, function(req, res) {
+  res.sendStatus(200);
 });
 
 app.listen(process.env.PORT || 8080, function(){

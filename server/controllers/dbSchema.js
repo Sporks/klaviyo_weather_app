@@ -10,4 +10,13 @@ let userSchema = new Schema({
   state: String
 });
 
+// Was going to add the weather to the database too
+let citySchema = new Schema({
+  city: String,
+  state: String,
+  temp_f: String,
+  condition: String,
+  historical: String
+});
+
 module.exports = mongoose.model('user', userSchema);
