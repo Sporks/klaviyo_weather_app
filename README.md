@@ -7,6 +7,8 @@ Usage
 
 To run locally follow this guide:
 
+Please note, that since I have hidden my API key in an ignored file, you will need to use your own
+
 Install all dependencies needed by runnning
 ---
 
